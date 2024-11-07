@@ -1,0 +1,38 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 92px;
+  width: calc(80% - 148px);
+}
+
+.intro__title {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 900;
+  font-size: 54px;
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+.intro__cite {
+  margin: 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+.intro__cite-author {
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  padding-bottom: 32px;
+  text-align: left;
+}
+
+.intro__paragraph {
+  margin: 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+}

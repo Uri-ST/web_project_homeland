@@ -8,9 +8,19 @@
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 900;
   font-size: 6rem;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 .lead__subtitle {
   font-family: "Inter", "Arial", sans-serif;
   font-size: 30px;
+  text-align: center;
+  width: 60%;
+  margin-bottom: 64px;
+}
+
+.lead__image {
+  width: 100%;
 }
