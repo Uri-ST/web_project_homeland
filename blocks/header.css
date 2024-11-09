@@ -5,3 +5,18 @@
 .header__logo {
   padding-top: 34px;
 }
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    width: 254px;
+    height: 66px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    width: 188px;
+    height: 52px;
+    margin-bottom: 50px;
+  }
+}

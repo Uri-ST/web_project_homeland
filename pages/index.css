@@ -6,6 +6,3 @@
 @import url(../blocks/lead.css);
 @import url(../blocks/intro.css);
 @import url(../blocks/footer.css);
-@import url(../mediaqueries/desktop-1400px.css);
-@import url(../mediaqueries/tablet-768px.css);
-@import url(../mediaqueries/mobile-320px.css);
