@@ -2,15 +2,3 @@
   margin: auto;
   width: 80%;
 }
-
-@media screen and (max-width: 768px) {
-  .content {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .content {
-    width: 100%;
-  }
-}
