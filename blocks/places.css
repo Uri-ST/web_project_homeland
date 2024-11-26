@@ -23,31 +23,34 @@
 
 .city__image {
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
-  grid-row: 2 /4;
-  grid-column: 1 / 4;
-  margin: 0px 0px 48px;
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  height: 100%;
+  grid-row: 2 /3;
+  grid-column: 1 / 3;
+  /* margin: 0px 0px 48px; */
+  /* position: relative;
+  display: inline-block; */
 }
 
 .photo__image {
-  height: auto;
+  /* height: auto;
   display: block;
-  position: relative;
-  width: 100%;
+  position: relative;*/
+  object-fit: cover;
+
+  order: 1;
 }
 
 .photo-image-overlay {
-  position: absolute;
+  /* position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 0; */
+  width: 100%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
   transition: opacity 0.3s ease;
+  order: -1;
 }
 
 .photo-image-overlay:hover {
@@ -84,30 +87,26 @@
   grid-row: 1/2;
 }
 
-.places__place:nth-child(1) .city__artists {
-  padding-top: 96px; /* Artista Cricieth */
+/* .places__place:nth-child(1) .city__artists {
+  padding-top: 96px; /* Artista Cricieth
 }
 
 .places__place:nth-child(2) .city__artists {
-  padding-top: 116px; /* Artista Berea */
+  padding-top: 116px; /* Artista Berea 
 }
 
 .places__place:nth-child(3) .city__artists {
-  padding-top: 116px; /* Artista Muramvya */
+  padding-top: 116px; /* Artista Muramvya 
 }
 
 .places__place:nth-child(4) .city__artists {
-  padding-top: 206px; /* Artista Ciudad de México */
-}
+  padding-top: 206px; /* Artista Ciudad de México 
+} */
 
 .city__artists-title {
   font-size: 12px;
   color: #aaaaaa;
   margin: 0;
-}
-
-.city__title_grid-position-berea {
-  grid-column: 1/5;
 }
 
 .city__artists-authors {
