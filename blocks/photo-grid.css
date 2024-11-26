@@ -4,5 +4,132 @@
   grid-template-rows: repeat(2, 1fr);
   justify-content: center;
   gap: 16px;
+  margin: 0 43px;
   margin-bottom: 92px;
+}
+
+@media screen and (min-width: 1440px) {
+  .photo-grid {
+    margin: 0 auto 92px;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0 0 92px;
+  }
+
+  .photo-grid__item-7_grid-position {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+  }
+
+  .photo-grid__item-6_grid-position {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+  }
+
+  .photo-grid__item-5_grid-position {
+    grid-column: 3/5;
+    grid-row: 1/2;
+    width: 100%;
+    height: 100%;
+  }
+
+  .photo-grid__item-4_grid-position {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+  }
+
+  .photo-grid__item_grid-position {
+    grid-column: 3/2;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+  }
+
+  .photo-grid__item-1_grid-position {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+  }
+
+  .photo-grid__item-2_grid-position {
+    grid-column: 3/5;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+  }
+
+  .photo-grid__item-3_grid-position {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 0 24px 92px;
+  }
+
+  .photo-grid__item-7_grid-position {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+  }
+
+  .photo-grid__item-6_grid-position {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
+  }
+
+  .photo-grid__item-5_grid-position {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+  }
+
+  .photo-grid__item-4_grid-position {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+  }
+
+  .photo-grid__item_grid-position {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 100%;
+  }
+
+  .photo-grid__item-1_grid-position {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 100%;
+  }
+
+  .photo-grid__item-2_grid-position {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    width: 100%;
+  }
+
+  .photo-grid__item-3_grid-position {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    width: 100%;
+  }
 }
