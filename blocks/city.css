@@ -26,22 +26,22 @@
   cursor: pointer;
 }
 
-.image-photo_mexico-city {
+.city__image-photo_mexico-city {
   background-image: url(../images/places/mexico-city.jpg);
   background-size: cover;
 }
 
-.image-photo_cricieth {
+.city__image-photo_cricieth {
   background-image: url(../images/places/cricieth-gales.jpg);
   background-size: cover;
 }
 
-.image-photo_berea {
+.city__image-photo_berea {
   background-image: url(../images/places/berea-eeuu.jpg);
   background-size: cover;
 }
 
-.image-photo_muramvya {
+.city__image-photo_muramvya {
   background-image: url(../images/places/muramvya-burundi.jpg);
   background-size: cover;
 }
