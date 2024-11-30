@@ -6,3 +6,5 @@ Se implemento mediante HTML y CSS. Definidia con metodología BEM. Diseño respo
 Adaptado con flexbox y grids.
 
 Para mejorar la experiencia del usuario se podría añadir una opción para guardar las fotografías más le gusten al usuario y de igual forma implementar un contador de "likes" en ellas.
+
+https://uri-st.github.io/web_project_homeland/
