@@ -58,18 +58,14 @@
   color: white;
   width: 289px;
   padding: 12px 10px;
-  background: linear-gradient(to right, #0278fe, #003a7b);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   border-radius: 4px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: center;
 }
 
 .city__btn:hover {
-  background: linear-gradient(
-    to right,
-    rgba(2, 120, 254, 0.2) 0%,
-    rgba(0, 58, 123, 0.2) 100%
-  );
+  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
   cursor: pointer;
 }
 
